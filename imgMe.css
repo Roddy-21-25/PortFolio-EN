@@ -1,21 +1,15 @@
-.me-img{
-    width: auto;
-    height: 350px;
-    border-radius: 50%;
-    border: 6px solid white;
-    box-shadow: 0px 0px 6px white;
-    margin-top: 40px;
+.me-img {
+  width: auto;
+  height: 350px;
+  border-radius: 50%;
+  border: 6px solid white;
+  box-shadow: 0px 0px 6px white;
+  margin-top: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 767px) {
+  .small-me-img {
+    width: auto;
+    height: 270px;
+  }
+}

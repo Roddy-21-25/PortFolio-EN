@@ -1,5 +1,5 @@
 .bg {
-  background-image: url("/Header/bg.jpg");
+  background-image: url("/Header/BackGround.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -67,6 +67,19 @@
   border-radius: 10px;
   font-weight: 700;
   transition: all 0.3s ease;
+}
+
+@media (max-width: 767px) {
+  .small-text {
+    font-size: 95%;
+  }
+  .small-title{
+    font-size: 30px;
+  }
+
+  .small-me-img{
+    
+  }
 }
 
 .text-position:hover {
